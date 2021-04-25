@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  kubernates-deploy:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-25T17:56:59.946416+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 5ab9c66fcff39080f6a536283ce2024963a86464f32a353455bc35db5eac1903
+    name: kubernates-deploy
+    type: application
+    urls:
+    - kubernates-deploy-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-04-25T17:56:59.945852+08:00"
