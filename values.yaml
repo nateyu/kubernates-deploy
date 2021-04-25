@@ -5,12 +5,13 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  pullPolicy: IfNotPresent
+  repository: nexus.mchz.com.cn:5050/databusiness/nodejs-ci-demo
+  pullPolicy: Always #IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "latest"
 
-imagePullSecrets: []
+imagePullSecrets:
+  - name: my-registry
 nameOverride: ""
 fullnameOverride: ""
 
